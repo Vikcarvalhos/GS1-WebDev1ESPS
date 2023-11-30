@@ -172,6 +172,13 @@ div#home-video{
     flex-direction: column;
 }
 
+#problem-solution p{
+    font-family: Inter, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(10, 17, 22, 1);
+}
+
 #problem-solution h2{
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -179,14 +186,14 @@ div#home-video{
     padding: 50px 0;
 }
 
-#problem-buttons{
+#demo-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-#problem-buttons button{
+#demo-buttons button{
     border: 0px solid #aab8c2;
     border-radius: 15px;
     background-color: #edfdf3;
@@ -200,7 +207,7 @@ div#home-video{
     height: 5vh;
 }
 
-#problem-buttons button.active{
+#demo-buttons button.active{
     border: 0px solid #aab8c2;
     border-radius: 15px;
     background-color: #27ae60;
@@ -208,13 +215,13 @@ div#home-video{
     transition: background-color 0.3s ease-out;
 }
 
-#problem-buttons button:hover{
+#demo-buttons button:hover{
     border: 0px solid #aab8c2;
     background-color: #edfdf3;
     color: #007f00;
 }
 
-#problem-buttons button.active:hover{
+#demo-buttons button.active:hover{
     border: 0px solid #aab8c2;
     background-color: #27ae60;
     color: #fff;
@@ -223,8 +230,23 @@ div#home-video{
 #problem-container{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 0px 50px;
+    padding: 20px 0;
+}
+
+.ps-image-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    gap: 20px;
+}
+
+.ps-image-text p{
+    font-size: 14px;
+}
+
+.ps-image{
+    height: 30vh;
 }
 
 #individual {
@@ -238,26 +260,25 @@ div#home-video{
     display: none;
     height: 100%;
     width: 100%;
-    padding: 50px;
     justify-content: space-around;
 }
 
-.problem-content-individual-1{
+.demo-content-individual-1{
     display: flex;
     flex-direction: column;
 }
 
-.problem-content-individual-2{
+.demo-content-individual-2{
     display: flex;
     flex-direction: column;
 }
 
-.problem-content-enterprise-1{
+.demo-content-enterprise-1{
     display: flex;
     flex-direction: column;
 }
 
-.problem-content-enterprise-2{
+.demo-content-enterprise-2{
     display: flex;
     flex-direction: column;
 }
@@ -276,12 +297,11 @@ div#home-video{
     padding: 50px 0;
 }
 
-#demo-container{
+#ps-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
 }
 
 #contact {
