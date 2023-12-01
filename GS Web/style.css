@@ -253,40 +253,27 @@ div#home-video{
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: space-around;
 }
 
 #enterprise {
     display: none;
     height: 100%;
     width: 100%;
-    justify-content: space-around;
 }
 
-.demo-content-individual-1{
+.demo-content-individual{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.demo-content-individual-2{
+.demo-content-enterprise{
     display: flex;
-    flex-direction: column;
-}
-
-.demo-content-enterprise-1{
-    display: flex;
-    flex-direction: column;
-}
-
-.demo-content-enterprise-2{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #solution-demo {
     display: flex;
     flex-direction: column;
-    text-align: center;
     gap: 20px;
 }
 
