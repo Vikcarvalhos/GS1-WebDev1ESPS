@@ -31,7 +31,7 @@ window.addEventListener('scroll', function() {
         const screenHeight = window.innerHeight;
 
         if (sectionTop <= screenHeight) {
-            section.style.animation = '1s ease-out 0s 1 slideInFromBottom';
+            section.style.animation = '1s ease-out 0s 1 slideInFromRight';
         } else {
             section.style.animation = 'none';
         }
