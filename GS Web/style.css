@@ -176,8 +176,6 @@ div#home-video{
 #problem-solution{
     background-color: #E2E9EE;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 #problem-solution p{
@@ -237,24 +235,25 @@ div#home-video{
 
 #problem-container{
     display: flex;
-    flex-direction: column;
-    padding: 20px 0;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.ps-image-text{
+.problem-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 35%;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 40%;
     gap: 20px;
 }
 
-.ps-image-text p{
-    font-size: 14px;
+.problem-image{
+    width: 40%;
 }
 
-.ps-image{
-    height: 30vh;
+.problem-image img{
+    width: 100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -279,11 +278,11 @@ div#home-video{
 }
 
 .demo-text{
-    width: 50%;
+    width: 40%;
 }
 
 .demo-image{
-    width: 40%;
+    width: 30%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
